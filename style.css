@@ -82,4 +82,61 @@
     padding: 25.24px 133.25px;
     border-radius: 10px;
   }
-    
+  .title-2 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51.71px;
+    text-align: left;
+    color: #957554;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  
+  .card {
+    width: 630px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 57px;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    width: 100%;
+  }
+  
+  .card-title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45.96px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .button.mini-button {
+    padding: 24px 52px 24px 56px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 59px;
+  }
+  
+  .second-section {
+    margin: 55px;
+  }
+      
