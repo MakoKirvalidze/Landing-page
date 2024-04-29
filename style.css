@@ -149,4 +149,47 @@
   .third-section {
     margin: 122px;
   }
-      
+  footer {
+    background: #111111;
+    padding-top: 51px;
+    padding-bottom: 159px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 27.58px;
+  }
+  .footer-links {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .footer-text a {
+    display: block;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
+    color: #ffffff;
+  }
+  
+  .footer-text p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    color: #ffffff;
+  }
+  
+  .footer-content img {
+    width: 154px;
+    height: 126px;
+  }
+        
