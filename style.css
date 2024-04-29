@@ -4,4 +4,36 @@
     box-sizing: border-box;
     text-decoration: 0;
   }
+
+  h1 {
+    font-family: "ubuntu", sans-serif;
+  }
+  
+  .container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .header-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  .nav-link {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #957554;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 50px;
+  }
   
