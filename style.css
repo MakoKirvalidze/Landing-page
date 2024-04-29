@@ -139,4 +139,14 @@
   .second-section {
     margin: 55px;
   }
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .third-section {
+    margin: 122px;
+  }
       
