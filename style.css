@@ -36,4 +36,50 @@
     display: flex;
     gap: 50px;
   }
+  .first-section {
+    background-image: url(./images-landing-page/main-image.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
   
+  .first-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+  }
+  
+  .title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 91.92px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .description {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .button {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #dfaa5b;
+    padding: 25.24px 133.25px;
+    border-radius: 10px;
+  }
+    
