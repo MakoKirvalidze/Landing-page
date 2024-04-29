@@ -4,4 +4,149 @@
     box-sizing: border-box;
     text-decoration: 0;
   }
+
+  h1 {
+    font-family: "ubuntu", sans-serif;
+  }
   
+  .container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .header-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  .nav-link {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #957554;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 50px;
+  }
+  .first-section {
+    background-image: url(./images-landing-page/main-image.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
+  
+  .first-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+  }
+  
+  .title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 91.92px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .description {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .button {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #dfaa5b;
+    padding: 25.24px 133.25px;
+    border-radius: 10px;
+  }
+  .title-2 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51.71px;
+    text-align: left;
+    color: #957554;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  
+  .card {
+    width: 630px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 57px;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    width: 100%;
+  }
+  
+  .card-title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45.96px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .button.mini-button {
+    padding: 24px 52px 24px 56px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 59px;
+  }
+  
+  .second-section {
+    margin: 55px;
+  }
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .third-section {
+    margin: 122px;
+  }
+      
